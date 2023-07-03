@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="interface">
+      <div class="search">
+        <div class="input">
+          <input id="searchBox" type="text" placeholder="enter your city" />
+        </div>
+        <div class="search-btn">
+          <button id="search-button">
+            <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="weather-icon">
+        <img id="weather-icon" src="img/clouds.png" alt="" />
+      </div>
+      <div class="temp_city_container">
+        <p class="temp"></p>
+        <p class="city_name">Search</p>
+      </div>
+      <div class="character">
+        <div class="humidity">
+          <img src="img/humidity.png" alt="" />
+          <div class="detail">
+            <p class="hum"></p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="wind">
+          <img src="img/wind.png" alt="" />
+          <div class="detail-1">
+            <p class="speed"></p>
+            <p>Wind speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
